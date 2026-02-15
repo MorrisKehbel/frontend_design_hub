@@ -132,7 +132,7 @@ export default function HubShowcase() {
                 poster="/sites_assets/velora/Velora_Video_Campaign_Generation_poster.webp"
               >
                 <source
-                  src="/sites_assets/velora/Velora_Video_Campaign_Generation_small.mp4"
+                  src="/sites_assets/velora/Velora_Video_Campaign_Generation_web.mp4"
                   type="video/mp4"
                 />
               </video>
