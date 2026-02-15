@@ -59,12 +59,12 @@ export default function CtaSection() {
       id="contact"
       className="relative overflow-hidden pt-32 pb-24 lg:pt-40 lg:pb-32"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('/sites_assets/velora/Velora_Image_Campaign_Generation.png')",
-        }}
+      <img
+        src="/sites_assets/velora/Velora_Image_Campaign_Generation.webp"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-black/60" />
 
@@ -148,7 +148,7 @@ export default function CtaSection() {
               </div>
               <button
                 type="submit"
-                className="shrink-0 rounded-full bg-forest px-8 py-3.5 font-sans text-sm font-medium text-cream transition-all duration-300 hover:bg-forest-light hover:shadow-lg hover:shadow-black/20 active:scale-95 active:bg-cream-dark cursor-pointer"
+                className="shrink-0 rounded-full bg-forest px-8 py-3.5 font-sans text-sm font-medium text-cream transition-all duration-300 hover:bg-forest-light hover:shadow-lg hover:shadow-black/20 active:scale-95 active:bg-forest-light cursor-pointer"
               >
                 Get in Touch
               </button>
