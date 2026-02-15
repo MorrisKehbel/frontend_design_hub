@@ -109,23 +109,23 @@ export default function Navbar() {
                   <a
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block font-sans text-base font-medium text-dark/70 transition-colors hover:text-forest"
+                    className="block font-sans text-base font-medium text-forest transition-all duration-300 hover:text-forest-light active:text-forest-light active:scale-95"
                   >
                     {link.label}
                   </a>
                 </li>
               ))}
-              <li className="flex justify-center">
-                <a
-                  href="#contact"
+              <li className="text-center">
+                <button
+                  type="button"
                   onClick={() => {
                     setMobileOpen(false);
                     handleReturnClick();
                   }}
-                  className="inline-block rounded-full bg-forest px-6 py-2.5 font-sans text-sm font-medium text-cream transition-all hover:bg-forest-light"
+                  className="rounded-full bg-forest px-8 py-3.5 font-sans text-sm font-medium text-cream transition-all duration-300 hover:bg-forest-light hover:shadow-lg hover:shadow-black/20 active:scale-95 active:bg-forest-light cursor-pointer"
                 >
                   Return to Overview
-                </a>
+                </button>
               </li>
             </ul>
           </div>

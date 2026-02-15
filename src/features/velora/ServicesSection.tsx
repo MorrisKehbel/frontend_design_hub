@@ -104,12 +104,15 @@ export default function ServicesSection() {
     <section
       ref={sectionRef}
       id="services"
-      className="relative overflow-hidden bg-cream bg-cover bg-center bg-no-repeat py-24 lg:py-32"
-      style={{
-        backgroundImage:
-          "url('/sites_assets/velora/Velora_Image_Campaign_Generation2.png')",
-      }}
+      className="relative overflow-hidden bg-cream py-24 lg:py-32"
     >
+      <img
+        src="/sites_assets/velora/Velora_Image_Campaign_Generation2.webp"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover"
+      />
       {/* Organic divider – overlaps from above */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-0 rotate-180">
         <svg

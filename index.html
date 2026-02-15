@@ -11,6 +11,37 @@
     <!-- <meta name="theme-color" content="#F7F4EF" /> -->
 
     <title>Design Collection</title>
+
+    <!-- Preload hero poster so it's ready before React renders -->
+    <link
+      rel="preload"
+      href="/sites_assets/velora/Velora_Video_Campaign_Generation_poster.webp"
+      as="image"
+      type="image/webp"
+    />
+
+    <!-- Preload critical fonts to avoid FOIT -->
+    <link
+      rel="preload"
+      href="/src/fonts/cormorant-garamond-v21-latin-300.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/src/fonts/dm-sans-v17-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/src/fonts/dm-sans-v17-latin-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
   </head>
   <body class="antialiased">
     <div id="root"></div>
